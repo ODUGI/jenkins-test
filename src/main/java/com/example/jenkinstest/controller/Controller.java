@@ -15,4 +15,9 @@ public class Controller {
     public String testMethod2(){
         return "새로운 테스트 확인 완료!";
     }
+
+    @GetMapping("/test3")
+    public String testMethod3(){
+        return "버젼 업그레이드 완료!";
+    }
 }
