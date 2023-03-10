@@ -10,4 +10,9 @@ public class Controller {
     public String testMethod(){
         return "테스트 완료!";
     }
+
+    @GetMapping("/test2")
+    public String testMethod2(){
+        return "새로운 테스트 확인 완료!";
+    }
 }
