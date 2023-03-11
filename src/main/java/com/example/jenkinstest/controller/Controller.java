@@ -20,4 +20,9 @@ public class Controller {
     public String testMethod3(){
         return "버젼 업그레이드 완료!";
     }
+
+    @GetMapping("/test4")
+    public String testMethod4(){
+        return "웹 훅 설정 완료!";
+    }
 }
