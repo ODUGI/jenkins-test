@@ -25,4 +25,9 @@ public class Controller {
     public String testMethod4(){
         return "웹 훅 설정 완료!";
     }
+
+    @GetMapping("/test5")
+    public String testMethod5(){
+        return "새로운 브랜치에서 생성함!";
+    }
 }
